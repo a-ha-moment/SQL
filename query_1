@@ -10,3 +10,15 @@ join products p
     on p.id = ol.product_id
 where ol.product_id in (4280, 6600)
 order by ol.product_id, ol.qty;
+
+      P_ID PRODUCT_NAME               O_ID        QTY
+---------- -------------------- ---------- ----------
+      4280 Hoppy Crude Oil             423         60
+      4280 Hoppy Crude Oil             427         60
+      4280 Hoppy Crude Oil             422         80
+      4280 Hoppy Crude Oil             429         80
+      4280 Hoppy Crude Oil             428         90
+      4280 Hoppy Crude Oil             421        110
+      6600 Hazy Pink Cloud             424         16
+      6600 Hazy Pink Cloud             426         16
+      6600 Hazy Pink Cloud             425         24
